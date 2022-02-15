@@ -72,10 +72,6 @@
     height: 200px;
     color: black;
 }
-.animation-keyframes {
-todo
-
-}
 
 .flex-container {
     border-width: 5px;
@@ -149,20 +145,12 @@ todo
     align-items: center;
 }
 
-flex-container-vertical-horizontal {
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
-    display : flex;
+.wd-flex {
+    display: flex;
 }
-
-.flex-container-vertical-horizontal>.flex-box {
-    border: 5px gray solid;
-    margin: 10px;
-    padding: 10px;
+.wd-100>.flex-box {
     flex-basis: 100%;
 }
-
 
 @media (min-width: 0px) and (max-width: 600px) {
     body {
@@ -200,6 +188,8 @@ flex-container-vertical-horizontal {
     top: 0px;
     animation-duration: 7s;
     animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     width: 200px;
     height: 200px;
     background-color: red;
@@ -250,7 +240,7 @@ flex-container-vertical-horizontal {
     height: 500px;
     background-color: lightgreen;
     animation-iteration-count: infinite;
-    animation-direction: alternate
+    animation-direction: alternate;
     color: white;
 }
 
