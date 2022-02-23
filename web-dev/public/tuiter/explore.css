@@ -1,36 +1,43 @@
+.wd-black{
+color:black;
+}
+.wd-img-width-all{
+width:50px;
+height:50px;
+}
+.wd-fa-circle-size{
+font-size: 0.6em;
+}
+.wd-fa-tick-size{
+font-size: 0.5em;
+}
 .wd-first-container {
     margin-top :-11px;
     margin-left :-30px;
     margin-right :30px;
     position:relative;
 }
-
 .wd-first-box {
   background-color :#454545;
   border-radius: 30px;
   width:90%;
   margin:30px;
-
 }
 body {
 overflow-x:hidden;
 background-color:black;
 }
-
 .container.wd-override-bg-color {
 background-color:black;
 }
-
 .wd-white{
 color:white;
 }
-
 .wd-red{
 color:red;
 }
 .wd-black{
 color:black;}
-
 .list-group-item{
      background-color: black;
      color:white;
@@ -38,10 +45,8 @@ color:black;}
 .wd-grey
 {
 color:lightgrey;}
-
 .disabled.wd-disabled{
 background-color:black;}
-
 .active.wd-override-active{
 background-color:black;
 border:black;
@@ -49,7 +54,6 @@ font-weight:bold;
 }
 .wd-grey{
 color: lightgrey;}
-
 .btn-primary.wd-bt-white{
 background-color:white;
 border :white;
@@ -58,10 +62,8 @@ color:black;
 .text-secondary.wd-lightgrey{
 color:lightgrey;
 }
-
 .wd-bg-list {
 background-color:#454545;
-
 }
 .wd-border-curved {
 border:rgb(5, 15, 25);
@@ -70,10 +72,9 @@ border-radius:15px;
 .wd-border-col {
 color:lightgrey;
 }
-
 .wd-width-more{
-width:104.5%;
-margin-left:-2.3%;
+width:104%;
+margin-left:-2%;
 }
 .wd-width-percent{
 width:104%;
@@ -85,35 +86,27 @@ display :inline;
 margin-left:25px;
 margin-top:-25px;
 }
-
 .wd-set-padding{
 margin-left :-15px;
 margin-top: -10px;
 }
 .wd-set-height {
 margin-top:-28px;}
-
-
 .wd-search-rounded {
     padding-top :5px;
     border: none;
     outline: none;
     padding-left: 50px;
 }
-
 .wd-placeholder {
-
   position:relative;
   color: rgb( 110, 118, 125);
-  /*margin-top :-50px;
-  margin-left:-40px;*/
   top:1%;
   left:-8%;
   border: none;
   outline: none;
   background-color:transparent;
 }
-
 .wd-search {
   color:rgb( 110, 118, 125);
   padding : 10px;
@@ -126,15 +119,12 @@ margin-top:-28px;}
    outline:none;
    border :none;
  }
-
  .wd-gear {
    color:white;
    border :none;
    margin : none;
    outline :none;
   }
-
-
  .wd-gear-class {
    position: absolute;
    left:100%;
@@ -149,13 +139,10 @@ margin-top:-28px;}
  }
 .wd-img{
 margin-left :-10px;
-
  }
  .wd-bold {
   font-weight: bold;
-
 }
-
 .wd-set-nav {
 margin-top:-10px;
 }
@@ -184,12 +171,10 @@ position : relative;
 top:20px;
 right:146px;
 }
-
 .overlay{
  position: relative;
  bottom: 35px;
  left: 10px;
-
 }
 .wd-follow {
 position : relative;
@@ -216,22 +201,18 @@ position : relative;
 left : 140px;
 width : 80px;
 }
-
 .wd-max-width {
 width:350px;
 }
-
 .wd-moveup{
 position : relative;
 margin-top:-38px;
-
 }
 .wd-margin-top {
 margin-top:-15px;
 }
 .wd-move-right {
 margin-left : -11px;}
-
 hr{
 color:lightgrey;
 margin-top:-10px;
@@ -241,16 +222,8 @@ width:105%;
 }
 .wd-tweet-up {
 margin-top:-15px;}
-
 .wd-inline{
 display:inline;}
-
 .wd-view-port{
 font-size: 1.2vw;
 }
-
-
-
-
-
-
