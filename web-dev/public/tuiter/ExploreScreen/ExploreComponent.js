@@ -8,13 +8,7 @@ const ExploreComponent = () => {
 
                     <input class="wd-search-rounded wd-search-white wd-placeholder" type="text" placeholder="Search Twitter">
                 </div>
-                <div class="wd-second-container container-fluid col-2">
-                                    <form action="explore-settings.html">
-                                        <button class="wd-gear-class">
-                                            <i class="fas fa-cog fa-2x wd-gear"></i>
-                                        </button>
-                                    </form>
-                </div>
+
             </div>
 
            <div class="col wd-width-percent wd-set-nav">

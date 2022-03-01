@@ -45,11 +45,11 @@ color:black;
 margin-top:-28px;}
 
 .wd-max-width {
-width:370px;
+width:100%;
 }
 .wd-border-curved {
 border:rgb(5, 15, 25);
-border-radius:15px;
+border-radius:12px;
 }
 .wd-bg-list {
 background-color:#222;
@@ -143,8 +143,8 @@ width : 80px;
  color:btn-primary;}
 
  .wd-width-percent{
-width:104%;
-margin-left:-1%;
+width:100%;
+
  }
  .wd-set-nav {
  margin-top:-10px;
@@ -153,17 +153,17 @@ margin-left:-1%;
  color: lightgrey;}
 
 .wd-width-more{
-width:104%;
-margin-left:-1%;
+width:100%;
+
 }
 .wd-overlay{
  position: relative;
- bottom: 35px;
+ bottom: 42px;
  left: 10px;
 }
 .wd-handle{
 float:left;
-margin-left:13%;
+margin-left:11%;
 margin-top:-5%;
  }
 .wd-main-bg{
@@ -172,13 +172,17 @@ margin-top:-5%;
 .wd-moveup{
 position : relative;
 margin-top:-20px;
-width:104%;
-margin-left:-1%;
+width:100%;
+
 }
 .wd-move-right {
 margin-left : -11px;}
 
 .wd-margin-top {
+margin-top:-15px;
+}
+
+.wd-margin-top-one {
 margin-top:-15px;
 }
 
