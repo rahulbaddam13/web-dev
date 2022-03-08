@@ -37,7 +37,7 @@ const NavigationSideBar = (active) => {
                 <a href="#" class="list-group-item wd-list-color list-group-item-action">
 
                     <span class="fa-stack fa-1x wd-set-padding">
-                        <!--                    todo image-->
+
                              <i class="fas fa-circle fa-stack-1x wd-white"></i>
     <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-black" ></i>
 </span>

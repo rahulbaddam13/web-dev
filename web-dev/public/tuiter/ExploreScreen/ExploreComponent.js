@@ -3,7 +3,7 @@ const ExploreComponent = () => {
     return(`
             <div class="wd-first-container ">
                 <div class="wd-first-box">
-                    <!-- todo-->
+
                     <i class="fa fa-search fa-lg wd-search" aria-hidden="true"></i>
 
                     <input class="wd-search-rounded wd-search-white wd-placeholder" type="text" placeholder="Search Twitter">
@@ -36,6 +36,7 @@ const ExploreComponent = () => {
                                </li>
                            </ul>
                        </div>
+
            <div>
                            <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" class="wd-width-more pt-3"
                                 alt="Responsive image">
