@@ -45,12 +45,14 @@ return(
     </div>
 
 <div className="wd-main-img position-relative">
-                                     <img src = {posts.image} className="wd-main-img-one img-fluid"/>
+                                     <img src = {posts.image} className={`${posts.title === "" ? " wd-main-img-two" : " wd-main-img-one"} img-fluid`}/>
                                      </div>
+                                     {posts.title === "" ? "" :
                                      <div className ="wd-content-title">
                                      <p className ="wd-title wd-white">{posts.title}</p>
                                      <p className ="wd-content wd-grey">{posts.content}</p>
                                      </div>
+                                     }
 
     <div className="wd-fifth-container">
 
