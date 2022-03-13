@@ -11,11 +11,11 @@ const NavigationSideBar = ( { active = 'explore'} ) => {
                 <i className="fab fa-twitter wd-white"></i></Link>
 
 
-                <Link to="/tuiter/home" className={`list-group-item ${active === 'home' ? 'active' : ''} wd-list-color list-group-item-action`}>
+                <Link to="/Tuiter/home" className={`list-group-item ${active === 'home' ? 'active' : ''} wd-list-color list-group-item-action`}>
                 <i className="fa fa-home wd-white"></i>
                 <span className ="d-none d-xl-block wd-first-col">Home</span></Link>
 
-                <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore' ? 'active' : ''} wd-list-color list-group-item-action`} >
+                <Link to="/Tuiter/explore" className={`list-group-item ${active === 'explore' ? 'active' : ''} wd-list-color list-group-item-action`} >
                 <i className="fa fa-hashtag wd-white"></i>
                 <span className ="d-none d-xl-block wd-first-col">Explore</span></Link>
 
