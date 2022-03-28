@@ -1,7 +1,10 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import { useSelector } from "react-redux";
 
-const NavigationSideBar = ( { active = 'explore'} ) => {
+const NavigationSideBar = () => {
+const parameter = useSelector((state) => state.NavigationSidebarReducer);
+console.log(parameter);
     return(
 <>
 
@@ -11,13 +14,13 @@ const NavigationSideBar = ( { active = 'explore'} ) => {
                 <i className="fab fa-twitter wd-white"></i></Link>
 
 
-                <Link to="/tuiter/homee" className={`list-group-item ${active === 'home' ? 'active' : ''} wd-list-color list-group-item-action`}>
-                <i className="fa fa-home wd-white"></i>
-                <span className ="d-none d-xl-block wd-first-col">Home</span></Link>
+        <Link to="/tuiter/" className={`list-group-item list-group-item-action ${ parameter === "home" ? " active" : ""}`}>
+        <i className="fa fa-home wd-white"></i>
+        <span className ="d-none d-xl-block wd-first-col">Home</span></Link>
 
-                <Link to="/tuiter/explorer" className={`list-group-item ${active === 'explore' ? 'active' : ''} wd-list-color list-group-item-action`} >
-                <i className="fa fa-hashtag wd-white"></i>
-                <span className ="d-none d-xl-block wd-first-col">Explore</span></Link>
+        <Link to="/tuiter/explore" className={`list-group-item list-group-item-action${parameter === "explore" ? " active" : ""}`}aria-current="true">
+        <i className="fa fa-hashtag wd-white"></i>
+        <span className ="d-none d-xl-block wd-first-col">Explore</span></Link>
 
                 <a href="notifications.html" className="list-group-item wd-list-color list-group-item-action ">
                 <i className="fa fa-bell wd-white"></i>
@@ -34,9 +37,10 @@ const NavigationSideBar = ( { active = 'explore'} ) => {
                 <a href="lists.html" className="list-group-item wd-list-color list-group-item-action">
                 <i className="fa fa-list wd-white"></i>
                 <span className ="d-none d-xl-block wd-first-col">Lists</span></a>
-                <a href="profile.html" className="list-group-item wd-list-color list-group-item-action">
-                <i className="fa fa-user wd-white"></i>
-                <span className ="d-none d-xl-block wd-first-col">Profile</span></a>
+
+        <Link to="/tuiter/profile" className={`list-group-item list-group-item-action${ parameter === "profile" ? " active" : ""}`}>
+        <i className="fa fa-user wd-white"></i>
+        <span className ="d-none d-xl-block wd-first-col">Profile</span></Link>
 
                 <a href="#" class="list-group-item wd-list-color list-group-item-action">
                 <span class="fa-stack fa-1x wd-set-padding">

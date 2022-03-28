@@ -28,3 +28,38 @@ margin-top:-10px;
    outline:none;
    border :none;
  }
+.wd-handle-one{
+margin-top:-13px;}
+
+.wd-extra{
+display :flex;
+background-color:transparent;}
+
+.wd-a{
+margin-left:30px;
+}
+.wd-b{
+margin-left:5px;
+}
+
+.wd-over{
+color:grey;
+margin-left:45%;
+margin-top:28%;
+}
+
+.wd-fName{
+background-color: black;
+color: white;
+border: 1px solid grey;
+}
+.form-control {
+background-color: black;
+color: white;
+border: 1px solid grey;
+}
+.wd-color{
+color: #2a9fd6
+}
+.wd-make{
+margin-left:1px;}

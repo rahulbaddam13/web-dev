@@ -4,10 +4,11 @@ margin-top:-10px;
 .wd-fifth-container{
 padding-top:2%;
 margin-bottom:1%;
-padding-left:15%;
+padding-left:8%;
 width:100%;
 display :flex;
 justify-content: space-between;
+background-color:transparent;
 }
 .wd-content-title {
   position:relative;
@@ -19,7 +20,25 @@ justify-content: space-between;
   margin-left:12%;
 }
 hr{
-width:90%;
-color:white;
-margin-left:10%;
+width:20%;
+color:black;
 }
+.wd-attachments{
+padding-left:50px;
+}
+.wd-border-curved {
+border:rgb(5, 15, 25);
+border-radius:10px 10px 0px 0px;
+}
+.wd-user{
+margin-left:2px}
+
+.wd-cross{
+color:grey;
+margin-left:px;
+
+
+}
+
+
+

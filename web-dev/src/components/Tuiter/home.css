@@ -4,17 +4,27 @@ margin-top:-20px;
 }
 .wd-float-right{
 
-margin-left:170%;
+margin-left:585%;
+
 }
 .wd-grey{
 color:grey;}
+
+.wd-grey-one{
+    color: white;
+    margin-left: 3px;
+
+    }
+.wd-grey-two{
+    color:grey;
+    margin-left: 5px;
+    }
 
 .wd-ellipse{
 margin-right:-220%;
 }
 
-.wd-user{
-margin-left:-5%}
+
 
 .wd-image-main{
 margin-left:13%;
@@ -54,7 +64,6 @@ width:100%;
 hr{
 width:90%;
 color:white;
-margin-left:10%;
 }
 
 
@@ -83,18 +92,28 @@ justify-content: space-between;
 }
 
 .wd-button{
-background-color: black;
+background-color:transparent;
   cursor:pointer;
   overflow: hidden;
   outline:none;
   border :none;
 }
 .wd-type-one{
-color:grey;
+color:white;
+background-color:transparent;
 }
 .wd-type-two
 {
 color:red;
 }
 .wd-caption{
-width:150%;}
+width:100%;
+padding-left:50px;
+margin-top:-70px;}
+
+.wd-userName{
+margin-top:50px;
+}
+.wd-bg-list {
+background-color:#222;
+}
