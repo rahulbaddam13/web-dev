@@ -12,7 +12,7 @@ return (<div className ="col-12 mt-2">
          <div className="row">
          <h4 className="fw-bold d-inline">{profile.firstName} {profile.lastName}</h4>
          <p className="wd-handle-one wd-grey">5,634 Tweets</p>
-         <img src = {profile.bannerPicture} className ="wd-img-one w-100%"/>
+         <img src = {profile.bannerPicture} className ="wd-img-one w-100% position-relative"/>
          <img src = {profile.profilePicture} className="position-absolute rounded-circle wd-img wd-img-width-all-one"/>
          </div>
          <div className ="pt-3">
