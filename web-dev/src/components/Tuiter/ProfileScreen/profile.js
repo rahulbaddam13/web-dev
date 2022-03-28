@@ -24,8 +24,8 @@ return (<div className ="col-12 mt-2">
                    </button>
                  </Link>
                </div>
-         <div className="pt-4">
-         <h4 className="fw-bold pt-3">{profile.firstName} {profile.lastName}</h4>
+         <div className="pt-5">
+         <h4 className="fw-bold pt-4">{profile.firstName} {profile.lastName}</h4>
          <p className="wd-handle-one wd-grey">@{profile.handle}</p>
          <p className="wd-bio-one wd-white">{profile.bio}</p>
          </div>
