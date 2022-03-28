@@ -75,8 +75,8 @@ const TuitListItem = ({
           <div className="pt-2 wd-attachments">
             {post.attachments && post.attachments.image && (
               <img
-                width="580px"
-                height="300px"
+                width="92%"
+                height="50%"
                 src={post.attachments.image ? post.attachments.image : ""}
               />
             )}
