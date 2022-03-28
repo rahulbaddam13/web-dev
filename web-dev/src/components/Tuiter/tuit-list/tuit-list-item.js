@@ -59,7 +59,7 @@ const TuitListItem = ({
                 <p className = "wd-grey-two d-inline wd-up">@{post.handle}</p>
                 <p className = "d-inline wd-grey-two">-{post.time}</p>
                 <div className ="col-2 mt-auto">
-                <i onClick={() => deleteTuit(post)} className="fa fa-times fa-lg wd-ellipse wd-grey wd-cross wd-float-right"></i>
+                <i onClick={() => deleteTuit(post)} className="fa fa-times fa-lg wd-ellipse wd-grey wd-cross wd-float-right me-2"></i>
                 </div>
                 </div>
 
@@ -95,9 +95,6 @@ const TuitListItem = ({
               ></iframe>
             )}
           </div>
-
-
-
 
      <TuitStats tuit={post}/>
         </div>
