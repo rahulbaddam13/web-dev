@@ -50,31 +50,32 @@ const TuitListItem = ({
           />
         </div>
 
-<div>
+<div className="row">
         <div className="col-10 d-inline">
-                <div className ="wd-caption wd-user">
+                <div className ="wd-caption wd-user" style={{width:"120%"}}>
                 <p className = "fw-bold d-inline wd-grey-one">{post.postedBy.username}</p>
                 <p className = "wd-grey-two d-inline wd-up">@{post.handle}</p>
                 <p className = "d-inline wd-grey-two">-{post.time}</p>
-                <div className ="col-2">
-                <i onClick={() => deleteTuit(post)} className="position-relative fa fa-times fa-lg wd-ellipse wd-grey wd-cross wd-float-right"></i>
+                <i onClick={() => deleteTuit(post)} className="fa fa-times fa-lg wd-aappaak"></i>
+
+        </div>
+
                 </div>
-                </div>
 
 
 
 
 
-                <div className ="wd-caption">
+                <div className ="wd-caption wd-paakaap">
                 <p className ="wd-white wd-caption-width wd-userName">{post.tuit}</p>
                 </div>
-            </div>
+
 
           <div className="pt-2 wd-attachments">
             {post.attachments && post.attachments.image && (
               <img
                 width="92%"
-                height="50%"
+                height="100%"
                 src={post.attachments.image ? post.attachments.image : ""}
               />
             )}
