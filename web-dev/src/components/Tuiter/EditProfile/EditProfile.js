@@ -86,6 +86,19 @@ return (
                                       type="url" onChange={(event) => updateData({ ...data, website: event.target.value })}
                                       value={data.website}/>
                             </div>
+       <div className="form-floating pt-3">
+                          <label for="dob"><p>Date of Birth</p></label>
+                 <input
+                   className="form-control wd-fName wd-location-one"
+                   id="dob"
+                   type="date"
+                   onChange={(event) =>
+                     updateData({ ...data, dateOfBirth: event.target.value })
+                   }
+                   value={new Date(data.dateOfBirth).toISOString().split("T")[0]}
+                 />
+
+               </div>
      </div>
 
 

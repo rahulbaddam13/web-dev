@@ -51,23 +51,21 @@ const TuitListItem = ({
         </div>
 
 <div>
-        <div className="col-10 d-inline wd-user">
-
-                <div className ="col">
-                <div className ="wd-caption">
+        <div className="col-10 d-inline">
+                <div className ="wd-caption wd-user">
                 <p className = "fw-bold d-inline wd-grey-one">{post.postedBy.username}</p>
                 <p className = "wd-grey-two d-inline wd-up">@{post.handle}</p>
                 <p className = "d-inline wd-grey-two">-{post.time}</p>
-                <div className ="col-2 mt-auto">
-                <i onClick={() => deleteTuit(post)} className="fa fa-times fa-lg wd-ellipse wd-grey wd-cross wd-float-right me-2"></i>
+                <div className ="col-2">
+                <i onClick={() => deleteTuit(post)} className="position-relative fa fa-times fa-lg wd-ellipse wd-grey wd-cross wd-float-right"></i>
                 </div>
                 </div>
 
 
-                </div>
 
 
-                <div className ="wd-caption wd-user">
+
+                <div className ="wd-caption">
                 <p className ="wd-white wd-caption-width wd-userName">{post.tuit}</p>
                 </div>
             </div>

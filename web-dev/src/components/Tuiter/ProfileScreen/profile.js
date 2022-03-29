@@ -3,6 +3,20 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const ProfileScreen = () => {
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
 const profile = useSelector((state) => state.ProfileScreenReducer);
 const dispatch = useDispatch();
  useEffect(() => {
@@ -30,9 +44,19 @@ return (<div className ="col-12 mt-2">
          <p className="wd-bio-one wd-white">{profile.bio}</p>
          </div>
          <div className="pt-1 wd-extra">
-         <div><i className="fa fa-map-marker wd-grey"> { profile.location}</i></div>
-         <div><i className="fa fa-birthday-cake wd-grey wd-a"> { profile.dateOfBirth}</i></div>
-         <div><i className="fa fa-calendar wd-grey wd-a"> { profile.dateJoined}</i></div>
+         <div><i className="fa fa-map-marker wd-grey"> { profile.location + "   "}</i></div>
+         <div>
+         <i className="fa fa-birthday-cake ms-3">{"  Born " +new Date(profile.dateOfBirth + " 4:00:00").toLocaleDateString(undefined,
+         {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+          })}</i>
+         </div>
+         <div>
+         <i className="fa fa-calendar ms-3">{" Joined " +months[parseInt(profile.dateJoined.split("/")[0]) - 1] +", " +
+                                             profile.dateJoined.split("/")[1]}</i>
+         </div>
          </div>
 
          <div className="pt-3 wd-extra">
@@ -41,13 +65,6 @@ return (<div className ="col-12 mt-2">
          <div><p className="fw-bold wd-white wd-a"> {profile.followersCount}</p></div>
          <div><p className="wd-grey wd-b">Followers</p></div>
          </div>
-
-
-
-
-
-
-
          </div>
 
 
