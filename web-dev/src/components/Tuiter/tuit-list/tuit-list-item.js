@@ -1,5 +1,7 @@
 import { useDispatch } from "react-redux";
 import TuitStats from "./tuit-stats";
+import {deleteTuit}
+  from "../actions/tuits-actions";
 
 const TuitListItem = ({
   post = {
@@ -28,13 +30,6 @@ const TuitListItem = ({
   },
 }) => {
   const dispatch = useDispatch();
-  const deleteTuit = (tuit) => {
-    dispatch({ type: "delete-tuit", tuit });
-  };
-  const likeTuit = (tuit) => {
-    dispatch({ type: "like-tuit", tuit });
-  };
-
 
 
   return (
@@ -53,10 +48,13 @@ const TuitListItem = ({
 <div className="row">
         <div className="col-10 d-inline">
                 <div className ="wd-caption wd-user" style={{width:"120%"}}>
-                <p className = "fw-bold d-inline wd-grey-one">{post.postedBy.username}</p>
-                <p className = "wd-grey-two d-inline wd-up">@{post.handle}</p>
-                <p className = "d-inline wd-grey-two">-{post.time}</p>
-                <i onClick={() => deleteTuit(post)} className="fa fa-times fa-lg wd-aappaak"></i>
+                <p className = "fw-bold d-inline wd-grey-one">{post.postedBy && post.postedBy.username &&
+                                                               post.postedBy.username}</p>
+                 {post.handle && (
+                <p className = "wd-grey-two d-inline wd-up">@{post.handle}</p>)}
+                {post.time && (
+                <p className = "d-inline wd-grey-two">-{post.time}</p>)}
+                <i onClick={() => deleteTuit(dispatch,post)} className="fa fa-times fa-lg wd-aappaak"></i>
 
         </div>
 

@@ -16,11 +16,11 @@
     },
     "logo-image": "https://pbs.twimg.com/media/FL5vqDMWUA8qyMp?format=jpg&name=900x900",
     "avatar-image": "https://pbs.twimg.com/media/FL5vqDMWUA8qyMp?format=jpg&name=900x900",
-    "stats": {
+
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+
   },
   {
     "_id": "567",
@@ -40,11 +40,11 @@
     "logo-image": "../../../images/node.png",
     "avatar-image": "../../../images/node.png",
     "tuits": "120K",
-    "stats": {
+
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+
   },
   {
     "_id": "234",
@@ -62,11 +62,11 @@
     "logo-image": "../../../images/js.png",
     "avatar-image": "../../../images/js.png",
     "tuits": "123K",
-    "stats": {
+
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+
   },
   {
     "_id": "345",
@@ -83,11 +83,11 @@
     "logo-image": "../../../images/jquery.png",
     "avatar-image": "../../../images/jquery.png",
     "tuits": "122K",
-    "stats": {
+
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+
   },
   {
     "_id": "456",
@@ -104,10 +104,10 @@
     "logo-image": "../../../images/node.png",
     "avatar-image": "../../../images/node.png",
     "tuits": "120K",
-    "stats": {
+
       "comments": 123,
       "retuits": 234,
       "likes": 345
-    }
+
   }
 ]
